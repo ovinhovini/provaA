@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #dashboard {
+            display: none;
+        }
+        #forgotPassword {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="login">
+        <h2>Login</h2>
+        <p>usuário</p>
+        <input type="text" id="username" placeholder="insira seu nome de usuário aqui">
+        <br>
+        <p>senha</p>
+        <input type="password" id="password" placeholder="insira sua senha aqui">
+        <br>
+        <button onclick="checkLogin()">login</button>
+        <button onclick="forgotPassword()">não sei minha senha</button>
+        <p id="error"></p>
+    </div>
+    <div id="dashboard">
+        <h2>Dashboard</h2> <br>
+        nada aqui ainda <br>
+        <img src="https://www.tramaweb.com.br/wp-content/uploads/2019/10/f6719fd6-tenor.gif" alt="gatinho digitando"> <br>
+        <button onclick="logout()">logout</button>
+    </div>
+    <div id="forgotPassword">
+        <p>
+            nome de usuário: user <br>
+            senha: senha
+        </p>
+        <button onclick="logout()">voltar ao login</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
