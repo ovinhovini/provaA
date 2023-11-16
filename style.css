@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+div {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 200px;
+    border-color: azure;
+}
